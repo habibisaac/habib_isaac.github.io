@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>حبيب إسحاق - مطور واجهات أمامية</title>
+    <!-- خطوط Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet" >
+    <style>
+        /* ===== إعدادات أساسية ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: #f8fafc;
+            color: #0f172a;
+            line-height: 1.8;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            padding: 40px 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+        }
+        /* ===== الهيدر ===== */
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #1e293b;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            font-size: 48px;
+            color: white;
+        }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #0f172a;
+        }
+        .header .title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2563eb;
+            margin-bottom: 8px;
+        }
+        .header .tagline {
+            font-size: 15px;
+            color: #475569;
+        }
+        /* ===== الأقسام ===== */
+        section {
+            margin-bottom: 35px;
+        }
+        section h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #0f172a;
+            border-right: 4px solid #2563eb;
+            padding-right: 12px;
+            margin-bottom: 15px;
+        }
+        /* ===== المهارات ===== */
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skills-grid span {
+            background: #eef2ff;
+            color: #1e40af;
+            padding: 6px 18px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        /* ===== المشاريع ===== */
+        .project {
+            background: #f1f5f9;
+            padding: 18px 20px;
+            border-radius: 14px;
+            margin-bottom: 14px;
+            transition: 0.2s;
+        }
+        .project:hover {
+            background: #e2e8f0;
+        }
+        .project h3 {
+            font-size: 17px;
+            color: #0f172a;
+        }
+        .project p {
+            font-size: 14px;
+            color: #475569;
+            margin: 4px 0 8px;
+        }
+        .project a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+        /* ===== جهات التواصل ===== */
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 10px;
+        }
+        .social-links a {
+            background: #0f172a;
+            color: white;
+            padding: 8px 22px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: 0.2s;
+        }
+        .social-links a:hover {
+            background: #2563eb;
+            transform: translateY(-2px);
+        }
+        .social-links a.whatsapp {
+            background: #25d366;
+        }
+        .social-links a.whatsapp:hover {
+            background: #1da851;
+        }
+        /* ===== تذييل ===== */
+        .footer {
+            text-align: center;
+            font-size: 13px;
+            color: #94a3b8;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 25px;
+            margin-top: 10px;
+        }
+        /* ===== استجابة للجوال ===== */
+        @media (max-width: 500px) {
+            .container { padding: 20px 16px; }
+            .header h1 { font-size: 22px; }
+            .social-links a { width: 100%; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- ===== الهيدر ===== -->
+    <header class="header">
+        <div class="avatar">👨‍💻</div>
+        <h1>حبيب إسحاق</h1>
+        <div class="title">Front-End Developer</div>
+        <p class="tagline">
+            أُحوّل التصاميم إلى واجهات تفاعلية سلسة | أُتقن React و JavaScript
+        </p>
+    </header>
+    
+    <!-- ===== نبذة ===== -->
+    <section>
+        <h2>🚀 نبذة عني</h2>
+        <p style="color: #334155;">
+            مطور واجهات أمامية بشغف في بناء تجارب رقمية مميزة. أتمتع بحس عالٍ بالتفاصيل 
+            وأحب تحويل الأفكار إلى كود نظيف وجاهز للاستخدام. أبحث عن فرص لتطوير مشاريع 
+            حقيقية تترك أثراً إيجابياً.
+        </p>
+    </section>
+    
+    <!-- ===== المهارات ===== -->
+    <section>
+        <h2>🛠️ المهارات التقنية</h2>
+        <div class="skills-grid">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript (ES6+)</span>
+            <span>React.js</span>
+            <span>Tailwind CSS</span>
+            <span>Git & GitHub</span>
+            <span>REST APIs</span>
+            <span>Responsive Design</span>
+        </div>
+    </section>
+    
+    <!-- ===== المشاريع ===== -->
+    <section>
+        <h2>📁 مشاريعي</h2>
+        
+        <div class="project">
+            <h3>📍 موقع مطعم "طعم الشرق"</h3>
+            <p>صفحة تعريفية لمطعم مع قائمة طعام ونموذج حجز ونظام عرض تفاعلي.</p>
+            <a href="#" target="_blank">عرض المشروع →</a>
+        </div>
+        
+        <div class="project">
+            <h3>📊 لوحة تحكم إدارية</h3>
+            <p>لوحة تحكم تعرض إحصائيات ورسوم بيانية باستخدام React و Chart.js.</p>
+            <a href="#" target="_blank">عرض المشروع →</a>
+        </div>
+        
+        <div class="project">
+            <h3>🛒 متجر إلكتروني بسيط</h3>
+            <p>منصة عرض منتجات مع سلة شراء وتفاعل مباشر مع المستخدم.</p>
+            <a href="#" target="_blank">عرض المشروع →</a>
+        </div>
+    </section>
+    
+    <!-- ===== التواصل ===== -->
+    <section>
+        <h2>📬 تواصل معي</h2>
+        <p style="color: #334155; margin-bottom: 12px;">
+            جاهز لبناء مشروعك؟ تواصل معي الآن:
+        </p>
+        <div class="social-links">
+            <a href="#" class="whatsapp">📱 واتساب</a>
+            <a href="#">🐙 GitHub</a>
+            <a href="#">💼 لينكدإن</a>
+            <a href="#">📧 البريد الإلكتروني</a>
+        </div>
+    </section>
+    
+    <!-- ===== تذييل ===== -->
+    <div class="footer">
+        © 2026 حبيب إسحاق • مطور واجهات أمامية • صنع في ليبيا 🇱🇾
+    </div>
+    
+</div>
+
+</body>
+</html>
